@@ -1,0 +1,65 @@
+:root {
+  --tw-backdrop-blur: blur(0);
+  --tw-backdrop-brightness: brightness(1);
+  --tw-backdrop-contrast: contrast(1);
+  --tw-backdrop-grayscale: grayscale(0);
+  --tw-backdrop-hue-rotate: hue-rotate(0deg);
+  --tw-backdrop-invert: invert(0);
+  --tw-backdrop-opacity: opacity(1);
+  --tw-backdrop-saturate: saturate(1);
+  --tw-backdrop-sepia: sepia(0);
+}
+
+@property --tw-backdrop-blur { syntax: "*"; inherits: false; initial-value: blur(0); }
+@property --tw-backdrop-brightness { syntax: "*"; inherits: false; initial-value: brightness(1); }
+@property --tw-backdrop-contrast { syntax: "*"; inherits: false; initial-value: contrast(1); }
+@property --tw-backdrop-grayscale { syntax: "*"; inherits: false; initial-value: grayscale(0); }
+@property --tw-backdrop-hue-rotate { syntax: "*"; inherits: false; initial-value: hue-rotate(0deg); }
+@property --tw-backdrop-invert { syntax: "*"; inherits: false; initial-value: invert(0); }
+@property --tw-backdrop-opacity { syntax: "*"; inherits: false; initial-value: opacity(1); }
+@property --tw-backdrop-saturate { syntax: "*"; inherits: false; initial-value: saturate(1); }
+@property --tw-backdrop-sepia { syntax: "*"; inherits: false; initial-value: sepia(0); }
+
+@import "tailwindcss";
+
+
+
+
+@theme {
+  --color-blue: #2997FF; /* Ini sudah benar */
+  --color-text-gray: #86868b; /* Hapus tanda kutip */
+  --color-text-gray-100: #94928d; /* Hapus tanda kutip */
+  --color-text-gray-200: #afafaf; /* Hapus tanda kutip */
+  --color-text-gray-300: #42424570; /* Hapus tanda kutip */
+  --color-zinc: #101010; /* Ini sudah benar */
+  --color-gray-300: #42424570; /* Hapus tanda kutip */
+  
+}
+
+
+
+body {
+  color: white;
+  width: 100dvw;
+  overflow-x: hidden;
+  height: 100%;
+  background: #000;
+  border-color: #3b3b3b;
+  user-select: none;
+  
+}
+
+canvas {
+  touch-action: none;
+}
+
+.screen-max-width {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  position: relative;
+  max-width: 1120px;
+}
+
+.nav-height {
+  height: calc(100vh - 60px); /* Tetap manual, karena @apply tidak mendukung calc() */
+}
