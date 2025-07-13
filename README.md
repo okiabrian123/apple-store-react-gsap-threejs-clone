@@ -47,10 +47,10 @@ This project serves as proof of my ability to translate complex designs into cle
   * **React.js:** A JavaScript library for building user interfaces.
   * **GSAP (GreenSock Animation Platform):** A powerful JavaScript animation library.
   * **Three.js:** A JavaScript library for creating and displaying 3D graphics on the web.
+  * **Tailwind CSS:** A utility-first CSS framework for rapidly building custom designs.
   * **HTML5:** The core structure of the web pages.
   * **CSS3:** Styling and visual presentation, including responsive techniques.
   * **JavaScript (ES6+):** Core logic and interactivity.
-  * [Add if applicable, e.g.: **SASS/Styled Components** for styling.]
 
 -----
 
