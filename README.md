@@ -79,7 +79,7 @@ To get this project up and running on your local machine, follow these steps:
 
 -----
 
-## 🌐 Live Demo (Optional)
+## 🌐 Live Demo
 
 You can check out a live demo of this project here:
 [live demo](https://apple-store-react-gsap-threejs-clon.vercel.app)
