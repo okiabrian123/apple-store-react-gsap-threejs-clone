@@ -3,7 +3,19 @@
 This project is a frontend implementation (clone) of the official Apple website. Its purpose is to showcase my ability to build complex, responsive, and aesthetically pleasing user interfaces with high precision.
 
 -----
+## 🚀 Performance Highlights
 
+This project is designed and optimized for high performance. Based on recent performance audits, the website achieves an overall score of **93**. Key metrics include:
+
+  * **Largest Contentful Paint (LCP):** **1.39 seconds (Good)**, indicating a fast loading time for the main content.
+  * **First Contentful Paint (FCP):** **1.03 seconds (Good)**, showing quick rendering of initial content.
+  * **Interaction to Next Paint (INP):** **144ms (Good)**, for responsive user interactions.
+  * **Cumulative Layout Shift (CLS):** **0.1 (Good)**, ensuring visual stability.
+  * **Time to First Byte (TTFB):** **125ms (Good)**, demonstrating a quick server response time.
+
+These metrics collectively highlight the project's focus on delivering a smooth and fast user experience.
+
+-----
 ## 💡 About This Project
 
 In developing this project, I followed a **highly structured and detailed tutorial** that guided me through every element and section of the Apple website step-by-step. This approach allowed me to gain a deep understanding of:
